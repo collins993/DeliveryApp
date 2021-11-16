@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import io.github.collins993.deliveryapp.authentication.LoginActivity
 import io.github.collins993.deliveryapp.authentication.SignUpActivity
 import io.github.collins993.deliveryapp.databinding.ActivitySplashBinding
 
@@ -18,7 +19,8 @@ class SplashActivity : AppCompatActivity() {
         supportActionBar?.hide()
 
         Handler().postDelayed({
-            startActivity(Intent(this, SignUpActivity::class.java))
+            startActivity(Intent(this, LoginActivity::class.java))
+            finish()
         },3000)
     }
 }

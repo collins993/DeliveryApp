@@ -25,19 +25,79 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
                 android:text="Pick Up Details*"
                 android:textColor="@color/black"
                 android:textSize="18sp"
-                android:textStyle="bold"
-                android:layout_marginBottom="10dp"/>
+                android:textStyle="bold" />
 
+            <Button
+                android:id="@+id/address_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@android:color/transparent"
+                android:text="Get Address"
+                android:textColor="@color/black" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Address"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/address_location_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:orientation="horizontal">-->
+
+
+            <!--                <ImageView-->
+            <!--                    android:id="@+id/item_pic"-->
+            <!--                    android:layout_width="100dp"-->
+            <!--                    android:layout_height="100dp"-->
+            <!--                    android:src="@drawable/ic_pick_img"/>-->
+
+            <!--                <Button-->
+            <!--                    android:id="@+id/pick_img_btn"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_marginTop="20dp"-->
+            <!--                    android:layout_height="50dp"-->
+            <!--                    android:layout_marginStart="5dp"-->
+            <!--                    android:backgroundTint="@android:color/transparent"-->
+            <!--                    android:text="Pick Image"-->
+            <!--                    android:textColor="@color/black"/>-->
+
+            <!--            </LinearLayout>-->
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/input_layout_address"
+                android:id="@+id/desc_input_layout"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter Address"
+                android:layout_marginTop="10dp"
+                android:hint="Enter Item Description"
                 app:endIconMode="clear_text"
                 app:errorEnabled="true"
                 app:errorIconDrawable="@drawable/ic_error"
@@ -45,7 +105,7 @@
                 app:helperTextTextColor="@color/grey">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/address"
+                    android:id="@+id/description"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text" />
@@ -53,32 +113,16 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Enter Landmark"
-                app:endIconMode="clear_text"
-                app:errorEnabled="true"
-                app:errorIconDrawable="@drawable/ic_error" >
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/landmark"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="text" />
-
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/first_name_input_layout"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="First Name"
-                app:helperText="Required"
-                app:helperTextTextColor="@color/grey"
                 app:endIconMode="clear_text"
                 app:errorEnabled="true"
-                app:errorIconDrawable="@drawable/ic_error">
+                app:errorIconDrawable="@drawable/ic_error"
+                app:helperText="Required"
+                app:helperTextTextColor="@color/grey">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/first_name"
@@ -89,15 +133,16 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/last_name_input_layout"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Last Name"
-                app:helperText="Required"
-                app:helperTextTextColor="@color/grey"
                 app:endIconMode="clear_text"
                 app:errorEnabled="true"
-                app:errorIconDrawable="@drawable/ic_error">
+                app:errorIconDrawable="@drawable/ic_error"
+                app:helperText="Required"
+                app:helperTextTextColor="@color/grey">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/last_name"
@@ -108,17 +153,18 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/phone_number_input_layout"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Phone Number"
-                app:helperText="Required"
-                app:prefixText="+234"
-                app:prefixTextColor="@color/black"
-                app:helperTextTextColor="@color/grey"
                 app:endIconMode="clear_text"
                 app:errorEnabled="true"
-                app:errorIconDrawable="@drawable/ic_error">
+                app:errorIconDrawable="@drawable/ic_error"
+                app:helperText="Required"
+                app:helperTextTextColor="@color/grey"
+                app:prefixText="+234"
+                app:prefixTextColor="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/phone_number"
@@ -129,15 +175,16 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/email_input_layout"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Email Address"
-                app:helperText="Required"
-                app:helperTextTextColor="@color/grey"
                 app:endIconMode="clear_text"
                 app:errorEnabled="true"
-                app:errorIconDrawable="@drawable/ic_error">
+                app:errorIconDrawable="@drawable/ic_error"
+                app:helperText="Required"
+                app:helperTextTextColor="@color/grey">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/email_address"
@@ -150,10 +197,10 @@
             <Button
                 android:id="@+id/proceed_btn"
                 android:layout_width="match_parent"
-                android:layout_marginTop="20dp"
                 android:layout_height="50dp"
+                android:layout_marginTop="20dp"
                 android:backgroundTint="@color/blue"
-                android:text="Proceed"/>
+                android:text="Proceed" />
 
 
         </LinearLayout>

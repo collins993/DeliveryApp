@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@id/nav_home1">
+
+    <fragment
+        android:id="@+id/nav_home1"
+        android:name="io.github.collins993.deliveryapp.driversdashboard.ui.SecondHomeFragment"
+        android:label="Delivery Orders"
+        tools:layout="@layout/fragment_second_home" >
+        <action
+            android:id="@+id/action_nav_home1_to_driverDeliveryOrderDetailsFragment"
+            app:destination="@id/driverDeliveryOrderDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/driverScheduledOrderFragment"
+        android:name="io.github.collins993.deliveryapp.driversdashboard.ui.scheduledorder.DriverScheduledOrderFragment"
+        android:label="Scheduled Orders"
+        tools:layout="@layout/fragment_driver_scheduled_order" >
+        <action
+            android:id="@+id/action_driverScheduledOrderFragment_to_driverDeliveryOrderDetailsFragment"
+            app:destination="@id/driverDeliveryOrderDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/driverDeliveryOrderDetailsFragment"
+        android:name="io.github.collins993.deliveryapp.driversdashboard.ui.deliveryorder.DriverDeliveryOrderDetailsFragment"
+        android:label="fragment_driver_delivery_order_details"
+        tools:layout="@layout/fragment_driver_delivery_order_details" >
+        <action
+            android:id="@+id/action_driverDeliveryOrderDetailsFragment_to_driverScheduledOrderFragment"
+            app:destination="@id/driverScheduledOrderFragment" />
+        <argument
+            android:name="orderDetails"
+            app:argType="io.github.collins993.deliveryapp.models.DeliveryModel" />
+        <action
+            android:id="@+id/action_driverDeliveryOrderDetailsFragment_to_nav_home1"
+            app:destination="@id/nav_home1" />
+        <action
+            android:id="@+id/action_driverDeliveryOrderDetailsFragment_to_driverDeliveryMapsFragment"
+            app:destination="@id/driverDeliveryMapsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/driverDeliveryMapsFragment"
+        android:name="io.github.collins993.deliveryapp.driversdashboard.ui.DriverDeliveryMapsFragment"
+        android:label="DriverDeliveryMapsFragment"
+        tools:layout="@layout/fragment_driver_delivery_maps">
+        <action
+            android:id="@+id/action_driverDeliveryMapsFragment_to_driverDeliveryOrderDetailsFragment"
+            app:destination="@id/driverDeliveryOrderDetailsFragment" />
+        <argument
+            android:name="orderDetails"
+            app:argType="io.github.collins993.deliveryapp.models.DeliveryModel" />
+    </fragment>
+</navigation>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "385198504489",
+    "project_id": "my-project-c57fa",
+    "storage_bucket": "my-project-c57fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385198504489:android:d9f3e61acbcd02ca0dba38",
+        "android_client_info": {
+          "package_name": "io.github.collins993.deliveryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385198504489-iua29mflto60stegu4b3ps830u3j6v2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnNQnfrG5NDABEQjhAGxNn4Oxtn0wrEeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385198504489-iua29mflto60stegu4b3ps830u3j6v2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

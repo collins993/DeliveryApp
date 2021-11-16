@@ -21,5 +21,9 @@
 
     <style name="Theme.DeliveryApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
+    <style name="Theme.DeliveryApp.AppBarOverlay2" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
     <style name="Theme.DeliveryApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.DeliveryApp.PopupOverlay2" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

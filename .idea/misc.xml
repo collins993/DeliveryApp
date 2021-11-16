@@ -4,21 +4,42 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/drawable/ic_error.xml" value="0.2117948717948718" />
+        <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/drawable/ic_my_location.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/drawable/ic_wallet.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/drawable/item_background.xml" value="0.21510416666666668" />
         <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/activity_dash_board.xml" value="0.1675925925925926" />
+        <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/activity_drivers_dashboard.xml" value="0.1828125" />
         <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/activity_login.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/activity_rider_login.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/activity_rider_sign_up.xml" value="0.19895833333333332" />
         <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/activity_sign_up.xml" value="0.14074074074074075" />
         <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/activity_splash.xml" value="0.21" />
         <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/app_bar_dash_board.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/app_bar_dash_board2.xml" value="0.19895833333333332" />
         <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/content_dash_board.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/content_dash_board2.xml" value="0.19895833333333332" />
         <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/drop_off_fragment.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/fragment_add_card.xml" value="0.19589743589743588" />
+        <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/fragment_driver_delivery_maps.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/fragment_driver_delivery_order_details.xml" value="0.1828125" />
+        <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/fragment_driver_scheduled_order.xml" value="0.19895833333333332" />
         <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/fragment_home.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/fragment_maps.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/fragment_maps_drop_off.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/fragment_order_details.xml" value="0.19589743589743588" />
         <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/fragment_order_history.xml" value="0.19895833333333332" />
         <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/fragment_payment.xml" value="0.19895833333333332" />
         <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/fragment_ratings.xml" value="0.19895833333333332" />
         <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/fragment_schedule_order.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/fragment_second_home.xml" value="0.19895833333333332" />
         <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/fragment_track_order.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/nav_header_dash_board.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/layout/order_history_layout.xml" value="0.19589743589743588" />
         <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/menu/activity_main_drawer2.xml" value="0.19895833333333332" />
         <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/menu/dash_board.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/menu/driver_dash_board.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/MyAccount_locks/Desktop/DeliveryApp/app/src/main/res/menu/main.xml" value="0.19895833333333332" />
       </map>
     </option>
   </component>
